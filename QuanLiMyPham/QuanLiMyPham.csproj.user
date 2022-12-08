@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="GUI\AccountGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\ChartGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\CustomerGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\DashboardGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\AccountDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\AddProductDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\CustomerDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\CustomerPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\EditProductDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\EmployeeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\EmployeePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\IngredientsDetailDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\InputDetailDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\ProductionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\ProductionPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\ProductPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\PromotionDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\PromotionPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\QuantityDetailDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\ReceiptDetailDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\RoleDetailsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\RoleDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\StorageDetailDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\StorageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\StoragePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\TradeStorageDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\TypeDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\Dialogs\TypePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="GUI\EmployeeGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\InputProductGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\ProductGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\ProductionGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\ProductTypeGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\PromotionGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\ReceiptGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\RoleGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\StorageGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="GUI\WelcomeGUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

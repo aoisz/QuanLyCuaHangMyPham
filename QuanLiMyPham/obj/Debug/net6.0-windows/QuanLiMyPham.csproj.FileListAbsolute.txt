@@ -1,0 +1,224 @@
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.exe
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.deps.json
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.runtimeconfig.json
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.pdb
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.AssemblyReference.cache
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Login.resources
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.MainForm.resources
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.GenerateResource.cache
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GeneratedMSBuildEditorConfig.editorconfig
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfoInputs.cache
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfo.cs
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CoreCompileInputs.cache
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\refint\QuanLiMyPham.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.pdb
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.genruntimeconfig.cache
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\ref\QuanLiMyPham.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Properties.Resources.resources
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.ProductGUI.resources
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.CustomerGUI.resources
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CopyComplete
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\MySql.Data.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ZstdNet.dll
+D:\c#\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.exe
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.deps.json
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.runtimeconfig.json
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.pdb
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Google.Protobuf.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\MySql.Data.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ZstdNet.dll
+D:\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.AssemblyReference.cache
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Login.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.MainForm.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Properties.Resources.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.GenerateResource.cache
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GeneratedMSBuildEditorConfig.editorconfig
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfoInputs.cache
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfo.cs
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CoreCompileInputs.cache
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CopyComplete
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.dll
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\refint\QuanLiMyPham.dll
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.pdb
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.genruntimeconfig.cache
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\ref\QuanLiMyPham.dll
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.AccountGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.CustomerGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.DashboardGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.EmployeeGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductionGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductTypeGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ReceiptGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.RoleGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.InputProductGUI.resources
+D:\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.s.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.exe
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.deps.json
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.runtimeconfig.json
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.pdb
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.AssemblyReference.cache
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.AccountGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.CustomerGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.DashboardGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.EmployeeGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.InputProductGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductionGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductTypeGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ReceiptGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.RoleGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Login.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.MainForm.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Properties.Resources.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.GenerateResource.cache
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfoInputs.cache
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfo.cs
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CopyComplete
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\refint\QuanLiMyPham.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.pdb
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.genruntimeconfig.cache
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\ref\QuanLiMyPham.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.WelcomeGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.QuantityDetailDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.IngredientsDetailDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.AddProductDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.EditProductDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.TypePicker.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ProductionPicker.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.RoleDetailsDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.RoleDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.AccountDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ProductPicker.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.CustomerPicker.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.EmployeePicker.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.PromotionPicker.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ReceiptDetailDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Licensing.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Chart.Base.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Chart.Windows.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Grouping.Base.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Shared.Base.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Microcharts.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ScottPlot.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ScottPlot.WinForms.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\SkiaSharp.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.CustomerDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ProductionDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ChartGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.StorageDetailDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.StorageDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.StoragePicker.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.PromotionGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.StorageGUI.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.EmployeeDialog.resources
+C:\Users\PC\Downloads\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.PromotionDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.exe
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.deps.json
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.runtimeconfig.json
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\QuanLiMyPham.pdb
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Microcharts.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ScottPlot.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\ScottPlot.WinForms.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\SkiaSharp.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Chart.Base.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Chart.Windows.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Grouping.Base.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Licensing.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\Syncfusion.Shared.Base.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\bin\Debug\net6.0-windows\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.AccountGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ChartGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.CustomerGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.DashboardGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.AccountDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.AddProductDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.CustomerDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.CustomerPicker.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.EditProductDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.EmployeeDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.EmployeePicker.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.IngredientsDetailDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ProductionDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ProductionPicker.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ProductPicker.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.PromotionDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.PromotionPicker.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.QuantityDetailDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.ReceiptDetailDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.RoleDetailsDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.RoleDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.StorageDetailDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.StorageDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.StoragePicker.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.TypePicker.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.EmployeeGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.InputProductGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductionGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ProductTypeGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.PromotionGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.ReceiptGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.RoleGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.StorageGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.WelcomeGUI.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Login.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.MainForm.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.Properties.Resources.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.GenerateResource.cache
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfoInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.AssemblyInfo.cs
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.csproj.CopyComplete
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\refint\QuanLiMyPham.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.pdb
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.genruntimeconfig.cache
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\ref\QuanLiMyPham.dll
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.InputDetailDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.TypeDialog.resources
+C:\Users\ACER\OneDrive\Máy tính\QuanLiMyPham\QuanLiMyPham\QuanLiMyPham\obj\Debug\net6.0-windows\QuanLiMyPham.GUI.Dialogs.TradeStorageDialog.resources
