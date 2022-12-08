@@ -1,0 +1,2 @@
+# QuanLyCuaHangMyPham
+ A C# project
