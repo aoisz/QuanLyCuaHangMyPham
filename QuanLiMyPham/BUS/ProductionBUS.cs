@@ -32,19 +32,20 @@ namespace QuanLiMyPham.BUS
         }
 
         //thêm
-        public void AddData(ProductionDTO productionDTO )
+        public ProductionDTO AddData(string name, string country)
         {
             ProductionDAO productionDAO = new ProductionDAO();
-            productionDAO.AddData(productionDTO);
+            ProductionDTO productionDTO = productionDAO.AddData(name, country);
             DataRow row = productionList.NewRow();
             row[0] = productionDTO.id;
             row[1] = productionDTO.name;
             row[2] = productionDTO.country;
             productionList.Rows.Add(row);
+            return productionDTO;
         }
 
         //sửa 
-        public void EditData(ProductionDTO production)
+        public void EditData(int indexRow, ProductionDTO production)
         {
             ProductionDAO khachHang = new ProductionDAO();
             khachHang.EditData(production);

@@ -129,10 +129,5 @@ namespace QuanLiMyPham.GUI.Dialogs
             }
             Close();
         }
-
-        private void permissionComBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }

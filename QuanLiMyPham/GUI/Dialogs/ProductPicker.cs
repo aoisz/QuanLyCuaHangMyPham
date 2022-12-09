@@ -33,6 +33,7 @@ namespace QuanLiMyPham.GUI.Dialogs
             ProductBUS productBUS = new ProductBUS();
             dataGridView.DataSource = productBUS.GetDataByStorageID(TradeStorageDialog.action);
         }
+
         public void LoadDataGridView()
         {
             ProductBUS productBUS = new ProductBUS();

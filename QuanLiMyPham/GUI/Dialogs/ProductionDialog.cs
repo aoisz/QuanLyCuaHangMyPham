@@ -52,53 +52,7 @@ namespace QuanLiMyPham.GUI.Dialogs
 
         private void acceptBtn_Click(object sender, EventArgs e)
         {
-            if (ProductionGUI.action.Equals("add"))
-            {
-                AddData();
-            }
-            else if (ProductionGUI.action.Equals("edit"))
-            {
-                EditData();
-            }
-            Close();
-        }
-        public void AddData()
-        {
-            if (nameTxtBox.Text == string.Empty ||
-                idTxtBox.Text == string.Empty ||
-                countryTxtBox.Text == string.Empty 
-            )
-            {
-                MessageBox.Show("Please enter all data required!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            ProductionDTO temp = new ProductionDTO();
-            temp.id = idTxtBox.Text;
-            temp.name = nameTxtBox.Text;
-            temp.country = countryTxtBox.Text;
 
-            ProductionBUS bus = new ProductionBUS();
-            bus.AddData(temp);
-            MessageBox.Show("Add Succesfully!", "Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-        public void EditData()
-        {
-            if (nameTxtBox.Text == string.Empty ||
-                idTxtBox.Text == string.Empty ||
-                countryTxtBox.Text == string.Empty
-            )
-            {
-                MessageBox.Show("Please enter all data required!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            ProductionDTO temp = new ProductionDTO();
-            temp.id = idTxtBox.Text;
-            temp.name = nameTxtBox.Text;
-            temp.country = countryTxtBox.Text;
-
-            ProductionBUS bus = new ProductionBUS();
-            bus.EditData(temp);
-            MessageBox.Show("Edit Succesfully!", "Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

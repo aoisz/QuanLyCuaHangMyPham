@@ -67,7 +67,6 @@
             this.dataGridView.ShowEditingIcon = false;
             this.dataGridView.Size = new System.Drawing.Size(1400, 397);
             this.dataGridView.TabIndex = 47;
-            this.dataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellClick);
             // 
             // searchOpt
             // 
@@ -104,7 +103,6 @@
             this.searchBtn.Text = "Search";
             this.searchBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.searchBtn.UseVisualStyleBackColor = false;
-            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
             // label5
             // 

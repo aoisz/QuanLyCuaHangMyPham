@@ -1,6 +1,8 @@
-﻿using QuanLiMyPham.DAO;
+﻿using Org.BouncyCastle.Crypto.Engines;
+using QuanLiMyPham.DAO;
 using QuanLiMyPham.DTO;
 using System.Data;
+using System.Globalization;
 
 namespace QuanLiMyPham.BUS
 {
@@ -148,6 +150,47 @@ namespace QuanLiMyPham.BUS
                 }
             }
             return list;
+        }
+
+        public List<DateTime> GetAllMonths()
+        {
+            List<DateTime> dateList = new List<DateTime>();
+            foreach(DataRow row in receiptList.Rows)
+            {
+                DateTime date = DateTime.Parse(row["NGAY"].ToString());
+                if (!dateList.Contains(date))
+                {
+                    dateList.Add(date);
+                }
+            }
+            return dateList;
+        }
+
+        public Dictionary<string, int> GetAllMonthSale()
+        {
+            Dictionary<string, int> sales = new Dictionary<string, int>();
+            ReceiptDAO receiptDAO = new ReceiptDAO();
+            DataTable rawData = receiptDAO.GetPriceByMonthYear();
+            foreach(DataRow row in rawData.Rows)
+            {
+                string key = row["THANG"].ToString() + "/" + row["NAM"].ToString();
+                int value = int.Parse(row["THANHTIEN"].ToString());
+                sales.Add(key, value);
+            }
+            return sales;
+        }
+
+        public int CountByEmployeeId(string employeeId)
+        {
+            int count = 0;
+            foreach(DataRow row in receiptList.Rows)
+            {
+                if (row["MANV"].ToString().Equals(employeeId))
+                {
+                    count++;
+                }
+            }
+            return count;
         }
     }
 }

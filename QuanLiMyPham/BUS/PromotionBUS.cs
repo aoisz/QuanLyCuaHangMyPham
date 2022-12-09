@@ -25,7 +25,7 @@ namespace QuanLiMyPham.BUS
                 promotionList = promotionDAO.GetDB();
             }
         }
-        public void DelData(string id, int rowIndex)
+        public void DelData(int rowIndex, string id)
         {
             PromotionDAO promotionDAO = new PromotionDAO();
             promotionDAO.DelData(id);
@@ -107,34 +107,39 @@ namespace QuanLiMyPham.BUS
             PromotionDAO dao = new PromotionDAO();
             return dao.GetNewID();
         }
-        public DataTable SearchByOption(string opt, string searchData)
+
+       /* public DataTable SearchByOption(string opt, string searchData)
         {
             DataTable list = new DataTable();
-            if (opt.Equals("ID"))
+            if (opt.Equals("id"))
             {
                 list = SearchID(searchData);
             }
-            else if (opt.Equals("Name"))
+            else if (opt.Equals("name"))
             {
                 list = SearchName(searchData);
             }
+            else
+            {
+                list = SearchRole(searchData);
+            }
             return list;
-        }
+        }*/
 
         //tìm kiếm theo mã
-        public DataTable SearchID(string searchData)
+        /*public DataTable SearchID(string searchData)
         {
             DataTable list = new DataTable();
-            foreach (DataColumn col in promotionList.Columns)
+            foreach (DataColumn col in receiptList.Columns)
             {
                 list.Columns.Add(col.ColumnName, col.DataType);
             }
-            foreach (DataRow row in promotionList.Rows)
+            foreach (DataRow row in receiptList.Rows)
             {
                 if (searchData.ToLower().Equals(row["MA"].ToString().ToLower()))
                 {
                     DataRow dataRow = list.NewRow();
-                    foreach (DataColumn col in promotionList.Columns)
+                    foreach (DataColumn col in receiptList.Columns)
                     {
                         dataRow[col.ColumnName] = row[col.ColumnName];
                     }
@@ -142,22 +147,22 @@ namespace QuanLiMyPham.BUS
                 }
             }
             return list;
-        }
+        }*/
 
         //tìm kiếm theo tên
-        public DataTable SearchName(string searchData)
+        /*public DataTable SearchName(string searchData)
         {
             DataTable list = new DataTable();
-            foreach (DataColumn col in promotionList.Columns)
+            foreach (DataColumn col in receiptList.Columns)
             {
                 list.Columns.Add(col.ColumnName, col.DataType);
             }
-            foreach (DataRow row in promotionList.Rows)
+            foreach (DataRow row in receiptList.Rows)
             {
-                if (row["TEN"].ToString().ToLower().Contains(searchData.ToLower()) == true)
+                if (row["TENDANGNHAP"].ToString().ToLower().Contains(searchData.ToLower()) == true)
                 {
                     DataRow dataRow = list.NewRow();
-                    foreach (DataColumn col in promotionList.Columns)
+                    foreach (DataColumn col in receiptList.Columns)
                     {
                         dataRow[col.ColumnName] = row[col.ColumnName];
                     }
@@ -165,7 +170,29 @@ namespace QuanLiMyPham.BUS
                 }
             }
             return list;
-        }
+        }*/
 
+        //tìm kiếm theo tên
+        /*public DataTable SearchRole(string searchData)
+        {
+            DataTable list = new DataTable();
+            foreach (DataColumn col in receiptList.Columns)
+            {
+                list.Columns.Add(col.ColumnName, col.DataType);
+            }
+            foreach (DataRow row in receiptList.Rows)
+            {
+                if (searchData.ToLower().Equals(row["MaQ"].ToString().ToLower()))
+                {
+                    DataRow dataRow = list.NewRow();
+                    foreach (DataColumn col in receiptList.Columns)
+                    {
+                        dataRow[col.ColumnName] = row[col.ColumnName];
+                    }
+                    list.Rows.Add(dataRow);
+                }
+            }
+            return list;
+        }*/
     }
 }

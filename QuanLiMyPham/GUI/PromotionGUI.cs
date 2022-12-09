@@ -58,22 +58,18 @@ namespace QuanLiMyPham.GUI
 
         private void unselectBtn_Click(object sender, EventArgs e)
         {
-            Unselect();
-        }
-        public void Unselect()
-        {
             LoadDataGridView();
             SettingDataGridView();
 
             searchTxtBox.Text = "";
             searchOpt.SelectedIndex = -1;
+
+            addBtn.Enabled = true;
             dataGridView.CurrentCell = null;
             idTxtBox.Text = null;
             nameTxtBox.Text = null;
-            discountTxtBox.Text = null;
-            minTxtBox.Text = null;
-            maxTxtBox.Text = null;
         }
+
         private void addBtn_Click(object sender, EventArgs e)
         {
             action = "add";
@@ -92,45 +88,7 @@ namespace QuanLiMyPham.GUI
 
         private void delBtn_Click(object sender, EventArgs e)
         {
-            if (dataGridView.SelectedRows.Count > 0)
-            {
-                DialogResult result = MessageBox.Show("Delete promotion " + idTxtBox.Text + "?", "", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
-                if (result == DialogResult.OK)
-                {
-                    PromotionBUS bus = new PromotionBUS();
-                    bus.DelData(idTxtBox.Text, dataGridView.CurrentRow.Index);
 
-                    MessageBox.Show("Delete Succesfully!", "Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Unselect();
-                }
-            }
-            else
-            {
-                MessageBox.Show("Please select a row!", "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            ShowRowAtIndex(e.RowIndex);
-        }
-
-        private void searchBtn_Click(object sender, EventArgs e)
-        {
-            if (searchOpt.SelectedIndex == -1)
-            {
-                MessageBox.Show("Choose a search option!!!", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                return;
-            }
-            if (searchTxtBox.Text == string.Empty)
-            {
-                MessageBox.Show("Empty data!!!");
-                return;
-            }
-            PromotionBUS bus = new PromotionBUS();
-            DataTable list = bus.SearchByOption(searchOpt.SelectedItem.ToString(), searchTxtBox.Text);
-            dataGridView.DataSource = list;
-            SettingDataGridView();
         }
     }
 }

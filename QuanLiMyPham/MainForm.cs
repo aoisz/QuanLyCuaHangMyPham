@@ -13,12 +13,20 @@ namespace QuanLiMyPham
         {
             accountId = idAccount;
             InitializeComponent();
+            
+        }
+
+        public void ShowWelcome()
+        {
+            WelcomeGUI welcomeGUI = new WelcomeGUI();
+            contentPanel.Controls.Clear();
+            contentPanel.Controls.Add(welcomeGUI);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
             ShowNameAccount();
-            //ShowWelcome();
+            ShowWelcome();
         }
 
         private void closeBtn_Click(object sender, EventArgs e)

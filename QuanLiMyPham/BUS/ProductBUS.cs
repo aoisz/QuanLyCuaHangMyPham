@@ -219,7 +219,7 @@ namespace QuanLiMyPham.BUS
         public DataTable GetDataByStorageID(string storageID)
         {
             ProductDAO productDAO = new ProductDAO();
-            return productList = productDAO.GetDataByStorageID(storageID); 
+            return productList = productDAO.GetDataByStorageID(storageID);
         }
     }
 }

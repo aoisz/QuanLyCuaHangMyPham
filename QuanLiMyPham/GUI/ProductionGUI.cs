@@ -22,7 +22,8 @@ namespace QuanLiMyPham.GUI
             LoadListView();
             SettingDataGridView();
             searchOpt.SelectedIndex = 0;
-            ShowRowAt(0);
+
+            ShowFirstRow();
         }
 
         public void LoadListView()
@@ -42,25 +43,31 @@ namespace QuanLiMyPham.GUI
             dataGridView.Columns[2].Width = (int)(dataGridView.Width * 0.38);
         }
 
-        public void ShowRowAt(int index)
+        public void ShowFirstRow()
         {
-            idTxtBox.Text = dataGridView.Rows[index].Cells[0].Value.ToString();
-            nameTxtBox.Text = dataGridView.Rows[index].Cells[1].Value.ToString();
-            countryTxtBox.Text = dataGridView.Rows[index].Cells[2].Value.ToString();
+            //set txt box show content của row đầu tiên 
+            DataGridViewRow row = dataGridView.Rows[0];
+            idTxtBox.Text = (string)row.Cells[0].Value;
+            nameTxtBox.Text = (string)row.Cells[1].Value;
+            countryTxtBox.Text = (string)row.Cells[2].Value;
+
+            addBtn.Enabled = false;
         }
 
-        private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
+            private void dataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            ShowRowAt(e.RowIndex);
+            int index = dataGridView.CurrentCell.RowIndex;
+            DataGridViewRow row = dataGridView.Rows[index];
+            idTxtBox.Text = (string)row.Cells[0].Value;
+            nameTxtBox.Text = (string)row.Cells[1].Value;
+            countryTxtBox.Text = (string)row.Cells[2].Value;
+
+            //tat nut add
+            addBtn.Enabled = false;
         }
 
         private void unselectBtn_Click(object sender, EventArgs e)
         {
-            Unselect();
-        }
-        public void Unselect()
-        {
-
             LoadListView();
 
             SettingDataGridView();
@@ -74,25 +81,34 @@ namespace QuanLiMyPham.GUI
             nameTxtBox.Text = null;
             countryTxtBox.Text = null;
         }
+
         private void addBtn_Click(object sender, EventArgs e)
         {
             action = "add";
             ProductionDialog dialog = new ProductionDialog();
             dialog.ShowDialog();
+            /*ProductionBUS bus = new ProductionBUS();
+            bus.AddData(nameTxtBox.Text, countryTxtBox.Text);
+
+            nameTxtBox.Text = null;
+            countryTxtBox.Text = null;
+
+            MessageBox.Show("Add Successful", "Succesful");*/
         }
 
         private void delBtn_Click(object sender, EventArgs e)
         {
             if (dataGridView.SelectedRows.Count > 0)
             {
-                DialogResult result = MessageBox.Show("Delete production " + idTxtBox.Text + "?", "", MessageBoxButtons.OKCancel, MessageBoxIcon.Error);
-                if (result == DialogResult.OK)
+                DialogResult result = MessageBox.Show("Delete " + idTxtBox.Text + " ?", "Confirmation", MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+                if (result == DialogResult.Yes)
                 {
                     ProductionBUS bus = new ProductionBUS();
                     bus.DelData(idTxtBox.Text, dataGridView.CurrentRow.Index);
 
-                    MessageBox.Show("Delete Succesfully!", "Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    Unselect();
+                    idTxtBox.Text = null;
+                    nameTxtBox.Text = null;
+                    nameTxtBox.Text = null;
                 }
             }
             else
@@ -107,6 +123,18 @@ namespace QuanLiMyPham.GUI
             ProductionDialog dialog = new ProductionDialog();
             dialog.FillData(new ProductionDTO(dataGridView.CurrentRow.Cells["MA"].Value.ToString(), dataGridView.CurrentRow.Cells["TEN"].Value.ToString(), dataGridView.CurrentRow.Cells["QUOCGIA"].Value.ToString()));
             dialog.ShowDialog();
+            /*ProductionBUS bus = new ProductionBUS();
+            ProductionDTO dto = new ProductionDTO();
+            dto.id = idTxtBox.Text;
+            dto.name = nameTxtBox.Text;
+            dto.country = countryTxtBox.Text;
+
+            bus.EditData(dataGridView.CurrentRow.Index, dto);
+
+            MessageBox.Show("Edit succesfully!", "Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            LoadListView();
+            SettingDataGridView();*/
         }
 
         private void searchBtn_Click(object sender, EventArgs e)
@@ -154,6 +182,8 @@ namespace QuanLiMyPham.GUI
                 }
                 dataGridView.DataSource = bus.searchByOption("phone", searchTxtBox.Text);
             }
+            ShowFirstRow();
+            SettingDataGridView();
         }
     }
 }

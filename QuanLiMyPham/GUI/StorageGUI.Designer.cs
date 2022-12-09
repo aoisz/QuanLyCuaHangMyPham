@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.searchOpt = new System.Windows.Forms.ComboBox();
             this.searchBtn = new FontAwesome.Sharp.IconButton();
@@ -44,7 +44,7 @@
             this.idTxtBox = new System.Windows.Forms.TextBox();
             this.viewBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.tradeBTN = new System.Windows.Forms.Button();
+            this.tradeBtn = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
@@ -55,14 +55,14 @@
             this.dataGridView.AllowUserToDeleteRows = false;
             this.dataGridView.AllowUserToResizeRows = false;
             this.dataGridView.BackgroundColor = System.Drawing.SystemColors.ControlLight;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
             this.dataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView.Location = new System.Drawing.Point(0, 316);
             this.dataGridView.MultiSelect = false;
@@ -279,23 +279,23 @@
             this.label4.TabIndex = 48;
             this.label4.Text = "Detail";
             // 
-            // tradeBTN
+            // tradeBtn
             // 
-            this.tradeBTN.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.tradeBTN.Location = new System.Drawing.Point(262, 208);
-            this.tradeBTN.Name = "tradeBTN";
-            this.tradeBTN.Size = new System.Drawing.Size(120, 34);
-            this.tradeBTN.TabIndex = 51;
-            this.tradeBTN.Text = "View";
-            this.tradeBTN.UseVisualStyleBackColor = true;
-            this.tradeBTN.Click += new System.EventHandler(this.tradeBTN_Click);
+            this.tradeBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.tradeBtn.Location = new System.Drawing.Point(262, 210);
+            this.tradeBtn.Name = "tradeBtn";
+            this.tradeBtn.Size = new System.Drawing.Size(120, 34);
+            this.tradeBtn.TabIndex = 51;
+            this.tradeBtn.Text = "View";
+            this.tradeBtn.UseVisualStyleBackColor = true;
+            this.tradeBtn.Click += new System.EventHandler(this.tradeBTN_Click);
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(108, 208);
+            this.label3.Location = new System.Drawing.Point(108, 210);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 28);
             this.label3.TabIndex = 50;
@@ -306,7 +306,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.Controls.Add(this.tradeBTN);
+            this.Controls.Add(this.tradeBtn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.viewBtn);
             this.Controls.Add(this.label4);
@@ -348,7 +348,7 @@
         private TextBox idTxtBox;
         private Button viewBtn;
         private Label label4;
-        private Button tradeBTN;
+        private Button tradeBtn;
         private Label label3;
     }
 }

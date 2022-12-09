@@ -87,11 +87,6 @@ namespace QuanLiMyPham.GUI
             detail_totalPrice.Text = price.ToString();
         }
 
-        public void UpdatePriceAfterDiscount()
-        {
-            int price = 0;
-        }
-
         public void AddItem()
         {
             ProductBUS productBUS = new ProductBUS();
@@ -158,8 +153,8 @@ namespace QuanLiMyPham.GUI
             productIdTxtBox.Text = string.Empty;
             quantityPick.Value = 0;
             UpdatePriceBeforeDiscount();
+            detail_afterDiscountPrice.Text = detail_totalPrice.Text;
         }
-
         public bool CheckBeforeSubmit()
         {
             DataTable table = (DataTable)detailTable.DataSource;
@@ -178,6 +173,25 @@ namespace QuanLiMyPham.GUI
                 return false;
             }
             return true;
+        }
+
+        public bool ProductSoldOut(string productId)
+        {
+            StorageDetailBUS storageDetailBUS = new StorageDetailBUS();
+            storageDetailBUS.SetTableData();
+            if (storageDetailBUS.IsAvailableProduct(productId, int.Parse(quantityPick.Value.ToString())))
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public void RefreshTable()
+        {
+            for (int i = 0; i < detailTable.Rows.Count; i++)
+            {
+                detailTable.Rows.RemoveAt(i);
+            }
         }
 
         private void productPicker_Click(object sender, EventArgs e)
@@ -200,6 +214,12 @@ namespace QuanLiMyPham.GUI
             else if(quantityPick.Value == 0)
             {
                 MessageBox.Show("Quantity must be more than 0 !", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (ProductSoldOut(productIdTxtBox.Text))
+            {
+                MessageBox.Show("Not enough quantity!", "Warning!", MessageBoxButtons.OK, MessageBoxIcon.Stop);
+                quantityPick.Value = 0;
                 return;
             }
             AddItem();
@@ -279,7 +299,7 @@ namespace QuanLiMyPham.GUI
                 detail_afterDiscountPrice.Text
             );
             receiptBUS.AddData(receiptDTO);
-
+            StorageDetailBUS storageDetailBUS = new StorageDetailBUS();
             //them vao chi tiet hoa don
             foreach (DataRow row in dataTable.Rows)
             {
@@ -291,8 +311,21 @@ namespace QuanLiMyPham.GUI
                     detail_totalPrice.Text
                 );
                 receiptDetailBUS.AddData(detailDTO);
+                string storageId = storageDetailBUS.GetAvailableStorage(row["MA"].ToString());
+                MessageBox.Show(storageId);
+                if (!storageId.Equals(""))
+                {
+                    int quantity = int.Parse(row["SOLUONG"].ToString());
+                    storageDetailBUS.ReduceQuantity(row["MA"].ToString(), quantity);
+                }
             }
             MessageBox.Show("Create new receipt successfully!", "Succesful", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            RefreshTable();
+            detail_customerIdTxtBox = null;
+            detail_employeeIdTxtBox = null;
+            detail_discountTxtBox = null;
+            detail_totalPrice.Text = "0";
+            detail_afterDiscountPrice.Text = "0";
             LoadData();
         }
         // --- End create new receipt ---
@@ -347,7 +380,18 @@ namespace QuanLiMyPham.GUI
 
         private void delBtn_Click(object sender, EventArgs e)
         {
-
+            string currentId = receiptTable.CurrentRow.Cells[0].Value.ToString();
+            DialogResult dialogResult = MessageBox.Show("Delete receipt " + currentId + "?", "Confirm", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            if(dialogResult == DialogResult.OK)
+            {
+                ReceiptDetailBUS receiptDetailBUS = new ReceiptDetailBUS();
+                receiptDetailBUS.SetTableData();
+                ReceiptBUS receiptBUS = new ReceiptBUS();
+                string receiptId = receiptTable.CurrentRow.Cells["MA"].Value.ToString();
+                int currentIndex = receiptTable.CurrentRow.Index;
+                receiptDetailBUS.DelData(receiptId);
+                receiptBUS.DelData(currentIndex,receiptId);
+            }
         }
     }
 }

@@ -89,6 +89,5 @@ namespace QuanLiMyPham.DAO
                 Console.WriteLine(e.Message);
             }
         }
-     
     }
 }

@@ -77,14 +77,35 @@ namespace QuanLiMyPham.DAO
             return id;
         }
 
-        public void AddData(ProductionDTO productionDTO)
+        public ProductionDTO AddData(string name, string country)
         {
+            ProductionDTO productionDTO = new ProductionDTO();
             try
             {
-                string sql = "INSERT INTO `nhasanxuat` VALUE (" +
-                             "'" + productionDTO.id + "'," +
-                             "'" + productionDTO.name + "'," +
-                             "'" + productionDTO.country + "')";
+                string sql = "SELECT MA FROM nhasanxuat ORDER BY MAKH DESC LIMIT 1";
+                MySqlDataReader dr = MySQLConnection.ToQuery(sql);
+                string id = "";
+                while (dr.Read()) { id = dr.GetString("MA"); }
+                id = id.Substring(id.Length - 2, 2);
+                int intId = Int32.Parse(id);
+                intId++;
+                if (intId < 10)
+                {
+                    id = "KH0";
+                }
+                else
+                {
+                    id = "SX";
+                }
+                id += intId.ToString();
+                productionDTO.id = id;
+                productionDTO.name = name;
+                productionDTO.country = country;
+
+                sql = "INSERT INTO `nhasanxuat` VALUE (" +
+                    "'" + productionDTO.id + "'," +
+                    "'" + productionDTO.name + "'," +
+                    "'" + productionDTO.country + "')";
 
                 MySQLConnection.ToUpdate(sql);
             }
@@ -93,6 +114,7 @@ namespace QuanLiMyPham.DAO
                 Console.WriteLine(e.Message);
             }
             MySQLConnection.CloseConnection();
+            return productionDTO;
         } 
     }
 }

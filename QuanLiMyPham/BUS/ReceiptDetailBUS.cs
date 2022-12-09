@@ -25,11 +25,22 @@ namespace QuanLiMyPham.BUS
                 receiptDetailList = receiptDetailDAO.GetDB();
             }
         }
-        public void DelData(int rowIndex, string id)
+        public void DelData(string receiptId)
         {
             ReceiptDetailDAO receiptDetailDAO = new ReceiptDetailDAO();
-            receiptDetailDAO.DelData(id);
-            receiptDetailList.Rows.RemoveAt(rowIndex);
+            receiptDetailDAO.DelData(receiptId);
+            List<DataRow> rows = new List<DataRow>();
+            foreach(DataRow row in receiptDetailList.Rows)
+            {
+                if (row["MAHD"].ToString().Equals(receiptId))
+                {
+                    rows.Add(row);
+                }
+            }
+            foreach(var item in rows)
+            {
+                receiptDetailList.Rows.Remove(item);
+            }
         }
 
         //thêm

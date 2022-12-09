@@ -100,5 +100,23 @@ namespace QuanLiMyPham.DAO
             }
             MySQLConnection.CloseConnection();
         }
+
+        public DataTable GetPriceByMonthYear()
+        {
+            DataTable data = new DataTable();
+            try
+            {
+                String sql = "SELECT MONTH(hoadon.NGAY) as 'THANG', YEAR(hoadon.NGAY) as 'NAM', SUM(hoadon.TONGTIENSAUKM) as 'THANHTIEN' " +
+                    "FROM `hoadon` " +
+                    "GROUP BY YEAR(hoadon.NGAY), MONTH(hoadon.NGAY)";
+                MySqlDataAdapter dataAdapter = MySQLConnection.ToQueryTable(sql);
+                dataAdapter.Fill(data);
+            }
+            catch (MySqlException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            return data;
+        }
     }
 }

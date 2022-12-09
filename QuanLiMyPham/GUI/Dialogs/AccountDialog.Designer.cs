@@ -190,7 +190,6 @@
             this.permissionComBox.Name = "permissionComBox";
             this.permissionComBox.Size = new System.Drawing.Size(257, 36);
             this.permissionComBox.TabIndex = 100;
-            this.permissionComBox.SelectedIndexChanged += new System.EventHandler(this.permissionComBox_SelectedIndexChanged);
             // 
             // AccountDialog
             // 

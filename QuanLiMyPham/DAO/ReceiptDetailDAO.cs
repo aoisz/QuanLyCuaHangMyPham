@@ -27,11 +27,11 @@ namespace QuanLiMyPham.DAO
             return data;
         }
 
-        public void DelData(string id)
+        public void DelData(string receiptId)
         {
             try
             {
-                string sql = "DELETE FROM `chitiethoadon` WHERE MA = '" + id + "'";
+                string sql = "DELETE FROM `chitiethoadon` WHERE MAHD = '" + receiptId + "'";
                 MySQLConnection.ToUpdate(sql);
             }
             catch (MySqlException e)

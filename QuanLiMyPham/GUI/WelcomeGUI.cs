@@ -15,6 +15,7 @@ namespace QuanLiMyPham.GUI
         public WelcomeGUI()
         {
             InitializeComponent();
+            pictureBox.Image = Image.FromFile("../../../Resource/Image/welcome_img.png");
         }
     }
 }

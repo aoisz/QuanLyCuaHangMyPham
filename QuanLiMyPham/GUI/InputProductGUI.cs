@@ -258,6 +258,7 @@ namespace QuanLiMyPham.GUI
             RefreshTable();
             LoadNewID();
             FillDate();
+            new ProductBUS().SetTableData();
             employeeIdTxtBox.Text = null;
             storageIdTxtBox.Text = null;
         }
